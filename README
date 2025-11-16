@@ -1,0 +1,5 @@
+简介: 
+
+    1）基于k8s集群动态准入控制validatingwebhook、mutatingwebhook实现集群安全和自动化的定制；
+    2）限制不符合要求的pod创建，如pod没有设置limits资源限制、镜像tag不允许为latest等；
+    3）以及实现fealbeat-sidecar容器的自动注入。
