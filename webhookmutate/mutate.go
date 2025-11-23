@@ -79,6 +79,7 @@ func (AR *AdmissionReviewMutate) Mutating(c *gin.Context) (*admissionV1.Admissio
 				Message: "Forbidden injectSiderCarContainer",
 			},
 			PatchType: &patch_type,
+			Patch:     []byte{},
 		},
 	}
 
